@@ -26,7 +26,7 @@ def run_ml_model(input_data):
     
     # Define the path to the compiled C++ executable
     # NOTE: This assumes the executable is named 'timetable_generator' and is in the same directory.
-    cpp_executable = "./timetable_generator"
+    cpp_executable = "../Model/timetable_generator"
     
     # Serialize the input data to a JSON string
     input_json = json.dumps(input_data)
